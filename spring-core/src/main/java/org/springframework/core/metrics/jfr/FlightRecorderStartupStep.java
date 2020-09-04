@@ -12,7 +12,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ *//*
+
 
 package org.springframework.core.metrics.jfr;
 
@@ -24,13 +25,15 @@ import org.jetbrains.annotations.NotNull;
 
 import org.springframework.core.metrics.StartupStep;
 
+*/
 /**
  * {@link StartupStep} implementation for the Java Flight Recorder.
  * <p>This variant delegates to a {@link FlightRecorderStartupEvent JFR event extension}
  * to collect and record data in Java Flight Recorder.
  *
  * @author Brian Clozel
- */
+ *//*
+
 class FlightRecorderStartupStep implements StartupStep {
 
 	private final FlightRecorderStartupEvent event;
@@ -166,3 +169,4 @@ class FlightRecorderStartupStep implements StartupStep {
 	}
 
 }
+*/

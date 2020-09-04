@@ -12,7 +12,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ *//*
+
 
 package org.springframework.core.metrics.jfr;
 
@@ -21,6 +22,7 @@ import jdk.jfr.Description;
 import jdk.jfr.Event;
 import jdk.jfr.Label;
 
+*/
 /**
  * {@link Event} extension for recording {@link FlightRecorderStartupStep}
  * in Java Flight Recorder.
@@ -30,7 +32,8 @@ import jdk.jfr.Label;
  *
  * @author Brian Clozel
  * @since 5.3
- */
+ *//*
+
 @Category("Spring Application")
 @Label("Startup Step")
 @Description("Spring Application Startup")
@@ -57,3 +60,4 @@ class FlightRecorderStartupEvent extends Event {
 	}
 
 }
+*/
